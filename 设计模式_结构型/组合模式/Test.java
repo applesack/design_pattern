@@ -11,7 +11,7 @@ public class Test {
         CatalogComponent linuxCource = new Course("Liunx课程", 11);
         CatalogComponent windowsCource = new Course("Windows课程", 12);
 
-        CatalogComponent javaCourceCatelog = new CourceCatelog("Java课程目录", 2);
+        CatalogComponent javaCourceCatelog = new CourseCatelog("Java课程目录", 2);
 
         CatalogComponent mmallCource1 = new Course("Java电商一期", 55);
         CatalogComponent mmallCource2 = new Course("Java电商二期", 66);
@@ -21,7 +21,7 @@ public class Test {
         javaCourceCatelog.add(mmallCource2);
         javaCourceCatelog.add(designPattern);
 
-        CatalogComponent imoocMainCourseCatalog = new CourceCatelog("慕课网课程主目录", 1);
+        CatalogComponent imoocMainCourseCatalog = new CourseCatelog("慕课网课程主目录", 1);
         imoocMainCourseCatalog.add(linuxCource);
         imoocMainCourseCatalog.add(windowsCource);
         imoocMainCourseCatalog.add(javaCourceCatelog);

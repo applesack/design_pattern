@@ -7,13 +7,13 @@ import java.util.List;
  * @author : flutterdash@qq.com
  * @date : 2020年04月02日 10:31
  */
-public class CourceCatelog extends CatalogComponent {
+public class CourseCatelog extends CatalogComponent {
 
     private List<CatalogComponent> items = new ArrayList<CatalogComponent>();
     private String name;
     private Integer level;
 
-    public CourceCatelog(String name, Integer level) {
+    public CourseCatelog(String name, Integer level) {
         this.name = name;
         this.level = level;
     }
