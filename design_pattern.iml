@@ -9,6 +9,13 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src" />
+          <root url="file://$MODULE_DIR$/设计原则" />
+          <root url="file://$MODULE_DIR$/设计模式_创建型" />
+          <root url="file://$MODULE_DIR$/设计模式_结构型" />
+          <root url="file://$MODULE_DIR$/设计模式_行为型" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -16,11 +23,7 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/设计原则" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/设计模式_创建型" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/设计模式_结构型" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/设计模式_行为型" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
